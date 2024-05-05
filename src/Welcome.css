@@ -1,0 +1,63 @@
+/** @format */
+.logo-nav {
+	font-size: 30px;
+	background: -webkit-linear-gradient(#0071f1fd, #ff0000);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.onde{
+
+	background: -webkit-linear-gradient(#ff0000fd, #f7f7f7);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;	
+}
+
+.img-padang {
+	border-radius: 10px;
+}
+.parent {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+}
+/* card responnsive */
+
+.img-story {
+	border-radius: 10px;
+}
+
+.left-story {
+	width: 580px;
+}
+.layer {
+	background-image: url("../src/img/gambar.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 2000px 100px 100px rgba(0, 0, 0, 0.4);
+
+	border: 1px solid grey;
+}
+/* order.js */
+
+.container-order {
+	/* background-image: url("../src/img/nasipadang.jpg"); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+}
+.container-order-text {
+	padding-top: 3rem;
+	padding-left: 3rem;
+}
+.container-order-breadcumb {
+	padding-left: 3rem;
+}
+
+/* paket */
+
+.avatar {
+	background-image: url("../src/img/nasipadang.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
